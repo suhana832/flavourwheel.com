@@ -29,6 +29,7 @@ header ul{
     position: fixed;
     padding: 0 0.4em 0 0.4em;
 }
+
 main {
     margin: 0;
     padding: 0;
@@ -92,3 +93,34 @@ main {
     position: relative;
     z-index: 1000;
 }
+
+.footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0em;
+    position: fixed;
+    z-index: 8000;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10em;
+    background-color: black;
+    color: white;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
