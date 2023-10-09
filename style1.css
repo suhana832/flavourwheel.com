@@ -21,7 +21,7 @@
         align-items: center;
         width: 100%;
         height: 100vh;
-        background: url('mae-mu-ecUVGNZA1TM-unsplash.jpg') no-repeat;
+        background: url('./images/mae-mu-ecUVGNZA1TM-unsplash.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         animation: animateBg 5s linear infinite;

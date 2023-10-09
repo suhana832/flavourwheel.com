@@ -20,7 +20,7 @@ section {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background: url('mae-mu-Emhz3miT6mo-unsplash.jpg') no-repeat;
+    background: url('./images/mae-mu-Emhz3miT6mo-unsplash.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     animation: animateBg 5s linear infinite;
