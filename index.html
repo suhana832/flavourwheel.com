@@ -1,130 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tailwind.config.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Flavourwheel.com</title>
-    <link rel="icon" href="./images/iconofweb.png" type="image/png">
-</head>
-
+    <title> Responsive Contact Us Form  | CodingLab </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
 <body>
-    <header>
-        <section class="w-[100%] h-[65px] ">
-            <nav class="flex flex-row justify-between items-center fixed right-0 left-0 bg-black shadow-inner text-white
-        z-[1000] border-b-[1px]  border-[#72ff03]">
-                <div class="w-[12%] mx-2">
-                    <img class="w-[100%] cursor-pointer my-2 " src="./images/FLAVOURWHEEL.COM (5).png" alt="logo">
-                </div>
-
-                <ul class="list-none ">
-                    <li class="inline-block mx-4"><a
-                            class="no-underline text-white font-medium text-base after:w-0 after:h-[2px] after:bg-[#72FF03] after:block  after:transition-all hover:after:w-[100%] hover:text-[#72FF03] transition"
-                            href="./">Contribute</a></li>
-                    <li class="inline-block mx-4"><a
-                            class="no-underline text-white font-medium text-base after:w-0 after:h-[2px] after:bg-[#72FF03] after:block  after:transition-all hover:after:w-[100%] hover:text-[#72FF03] transition"
-                            href="./">Tips</a></li>
-                    <li class="inline-block mx-4"><a
-                            class="no-underline text-white font-medium text-base after:w-0 after:h-[2px] after:bg-[#72FF03] after:block after:transition-all hover:after:w-[100%] hover:text-[#72FF03]  transition"
-                            href="./">About Us</a></li>
-                </ul>
-
-                <div
-                    class="flex justify-center items-center gap-4 bg-[#72ff03] p-2 mx-2 rounded-sm font-extrabold text-black hover:bg-white ">
-                    <ul>
-                        <li><a class=" " href="./login.html">Log In</a></li>
-                    </ul>
-                    <i class="fa-solid fa-right-to-bracket" style="color:#000;"></i>
-                </div>
-            </nav>
-        </section>
-    </header>
-    <main>
-        <section class="h-fit">
-            <div class="grid grid-cols-2 w-[100%] h-96 gap-7 items-center justify-between mb-10 ">
-                <div class="block w-[100%]">  
-                    <div class="flex flex-col w-[100%] gap-4 justify-around items-start px-2 mx-3 mt-32">
-                        <h2 class="font-extrabold text-6xl font-sans">Cook with what  <br> <span class="font-extrabold text-6xl font-sans text-[#72ff03]">you have !</span> </h2>
-                        <h6 class="text-xl mb-7 font-semibold" >Discover and explore recipes using <br> the ingredients you have on hand from our three categories.
-                        </h6>
-                        <div class="flex gap-6">
-                        <button class="bg-green-500 p-3 rounded-md font-black border-2 border-black cursor-pointer hover:bg-white hover:text-black" onclick="openVegetarianPage()"><i class="fa-solid fa-carrot fa-lg"></i><br> VEGETARIAN </button> 
-                        
-                        <button  class="bg-red-500 p-3 rounded-md font-black border-2 border-black cursor-pointer hover:bg-white hover:text-black" onclick="openNonVegetarianPage()"><i class="fa-solid fa-drumstick-bite fa-lg"></i><br> NON-VEGETARIAN</button>
-                        <button  class="bg-yellow-500 p-3 rounded-md font-black border-2 border-black cursor-pointer hover:bg-white hover:text-black" onclick="openEggetarianPage()"><i class="fa-solid fa-egg fa-lg"></i><br> EGGETARIAN</button>
-
-                        <script>
-                            function openVegetarianPage() {
-                                window.open('vegetarian.html', '_blank');
-                            }
-
-                            function openNonVegetarianPage() {
-                                window.open('nonvegetarian.html', '_blank');
-                            }
-
-                            function openEggetarianPage() {
-                                window.open('eggetarian.html', '_blank');
-                            }
-                        </script>
-                        </div>
-                    </div>
-                </div>
-                <div class=" w-[100%] flex justify-between items-center bg-black py-10">
-                    <img src="./images/pie-removebg-preview.png" class="w-[75%] h-auto select-none relative animate-[spin_10s_linear_infinite]" alt="">
-                    <div class="flex flex-col items-center">
-                    <img src="./images/spice-no-bg-removebg-preview.png" class="w-[75%] h-auto select-none relative animate-[spin_10s_linear_infinite]" alt="">
-                    <img src="./images/noodles-removebg-preview.png" class="w-[75%] h-auto select-none relative animate-[spin_10s_linear_infinite]" alt="">
-                    <img src="./images/biryani-removebg-preview.png" class="w-[75%] h-auto select-none relative animate-[spin_10s_linear_infinite]" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="mt-48 pb-10 flex flex-col items-center justify-center bg-white border-black border-b-2 border-t-2 ">
-            <p class="font-extrabold font-sans text-6xl p-10 text-[#000000] text-left">OUR QUALITIES</p>
-          <div class="flex gap-8 justify-between items-center">
-             <div class="flex flex-col gap-4 items-center justify-center text-white rounded-lg border-2 border-black p-10 shadow-md shadow-gray-500 bg-black">
-                <i class="fa-solid fa-database fa-2xl"></i>
-                <p class="text-center font-medium" ><br> Finest Kitchen Staples</p>
-             </div>
-             <div class="flex flex-col gap-4 items-center justify-center text-white rounded-lg border-2 border-black p-10 shadow-md shadow-gray-500 bg-black">
-                <i class="fa-solid fa-magnifying-glass fa-2xl"></i>
-                <p class="text-center font-medium" ><br> Exact Recipe Discovery</p>
-             </div>
-             <div class="flex flex-col gap-4 items-center justify-center text-white rounded-lg border-2 border-black p-10 shadow-md shadow-gray-500 bg-black">
-                <i class="fa-solid fa-laptop fa-2xl"></i>
-                <p class="text-center font-medium" ><br> User-First Design Approach</p>
-             </div>
-             <div class="flex flex-col gap-4 items-center justify-center text-white rounded-lg border-2 border-black p-10 shadow-md shadow-gray-500 bg-black">
-                <i class="fa-solid fa-bowl-food fa-2xl"></i>
-                <p class="text-center font-medium" ><br> Proven Plate Preparations</p>
-             </div>
-          </div>
-        </section>
-        <footer>
-            <section class="h-full bg-black">
-                <div class="flex flex-row justify-between gap-10">
-                    <div class="w-52">
-                        <img src="./images/mae-mu-Pvclb-iHHYY-unsplash.jpg" alt="">
-                    </div>
-                    <div class="flex flex-col gap-6 text-white font-normal text-xl mt-32">
-                        <ul class="flex flex-row no-underline gap-14 items-center justify-center"> 
-                            <li><a   class="no-underline text-black font-normal hover:after:w-[100%] hover:text-[#000] bg-white hover:bg-[#72ff03] p-2 rounded " href="./">Feedback</a></li>
-                            <li><a  class="no-underline text-black font-normal hover:after:w-[100%] hover:text-[#000] bg-white hover:bg-[#72ff03] p-2 rounded " href="./">Contact Us</a></li>
-                        </ul>
-                        <p class="text-sm"> &copy; 2023 flavourwheel.com  All rights reserved.</p>
-                    </div>
-                    <div class="w-36 mr-10">
-                        <img src="./images/black background food photography.jpeg" alt="">
-                    </div>
-                </div>
-            </section>
-        </footer>
-    </main>
-    
+  <div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">64, kaveri street, saligramam</div>
+          <div class="text-two">chennai, 600093, Tamilnadu</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">7840972668</div>
+          <div class="text-two">7878249657</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">rutwika07@gmail.com</div>
+          <div class="text-two">thalapathy7gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>Contact us if you have any query regarding the receipe and feel free to let us know your opinion and problem  </p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
 </body>
-
 </html>
