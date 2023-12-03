@@ -1,56 +1,84 @@
 <!DOCTYPE html>
-<!-- Created By CodingLab - www.codinglabweb.com -->
-<html lang="en" dir="ltr">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title> Responsive Contact Us Form  | CodingLab </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Fontawesome CDN Link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   </head>
+</head>
 <body>
-  <div class="container">
-    <div class="content">
-      <div class="left-side">
-        <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Address</div>
-          <div class="text-one">64, kaveri street, saligramam</div>
-          <div class="text-two">chennai, 600093, Tamilnadu</div>
-        </div>
-        <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
-          <div class="topic">Phone</div>
-          <div class="text-one">7840972668</div>
-          <div class="text-two">7878249657</div>
-        </div>
-        <div class="email details">
-          <i class="fas fa-envelope"></i>
-          <div class="topic">Email</div>
-          <div class="text-one">rutwika07@gmail.com</div>
-          <div class="text-two">thalapathy7gmail.com</div>
-        </div>
-      </div>
-      <div class="right-side">
-        <div class="topic-text">Send us a message</div>
-        <p>Contact us if you have any query regarding the receipe and feel free to let us know your opinion and problem  </p>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Enter your name">
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your email">
-        </div>
-        <div class="input-box message-box">
-          
-        </div>
-        <div class="button">
-          <input type="button" value="Send Now" >
-        </div>
-      </form>
+    <section> 
+    <div class="container">
+        <h1 class="form-title">Contribute</h1>
+        <form action="#">
+            <div class="main-user-info">
+                <div class="user-input-box">
+                    <label for="FullName">Full Name</label>
+                    <input type="text" required
+                            id="fullName"
+                            name="fullName"
+                            placeholder="Enter Full Name">
+                        
+                </div>
+
+                <div class="user-input-box">
+                    <span class="icon"><ion-icon name="email"></ion-icon></span>
+                    <label for="email">Email</label>
+                    <input type="text" required
+                            id="email"
+                            name="email"
+                            placeholder="Enter Email">
+                </div>
+                <div class="user-input-box">
+                    <label for="Receipename">Receipe Name</label>
+                    <input type="text" required
+                            id="Rname"
+                            name="Receipename"
+                            placeholder="Enter Receipe name">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="Ingredients">Ingredients</label>
+                    <input type="text" required
+                            id="Ingredients"
+                            name="Ingredients"
+                            placeholder="Enter Ingredients">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="username">Totaltime</label>
+                    <input type="text" required
+                            id="Totaltime"
+                            name="Totaltime"
+                            placeholder="Enter Totaltime">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="Servings">Servings</label>
+                    <input type="text" required
+                            id="Servings"
+                            name="Servings"
+                            placeholder="Enter Number of Servings">
+                </div>
+
+                <div class="user-input-box">
+                    <label for="Instructions">Instructions</label>
+                    <input type="text" required
+                            id="Instructions"
+                            name="Instructions"
+                            placeholder="Enter Your Receipe Instructions">
+                </div>
+
+            </div>
+            <div class="form-submit-btn">
+                <input type="submit" value="Submit Your Receipe">
+            </div>
+        </form>
+
     </div>
-    </div>
-  </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
