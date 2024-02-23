@@ -1,1 +1,1 @@
-![logo](https://github.com/suhana832/suhana832/blob/main/Blue%20Simple%20LinkedIn%20Banner.jpg)
+![logo]((https://github.com/suhana832/flavourwheel.com/blob/main/Screenshot%20(80).png))
